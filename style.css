@@ -53,17 +53,36 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
+}
+
+.content .list-menu li a {
+    padding: 3rem 1rem 2rem 1rem;
+    color: white;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+}
+
+.content .list-menu li a:hover {
+    background-color: #3333;
+    border-bottom: 4px solid #ffc506;
+    color: #ffc506;
 }
 
 
 
-
-
+/* First Section */
 
 
 .first-section {
     height: 100vh;
+    background-image: linear-gradient(rgba(29,29,29,0.8),rgba(29,29,29,0.8)),url(./img/fundopizza.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
     width: 100vw;
     display: flex;
     flex-direction: column;
